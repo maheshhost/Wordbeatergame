@@ -13,8 +13,8 @@ function fetchData() {
 }
 // fetch data xhr
 const words = fetchData();
-// const name = prompt("what is your name?");
-// const name1 = alert(`lets see how fast you can type ${name}`);
+const name = prompt("what is your name?");
+const name1 = alert(`lets see how fast you can type ${name}`);
 
 //levels 
 const level = {
