@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>wordBeater | Game</title>
+	<link rel="shortcut icon" href="favicon.ico" />	
+	<link rel="stylesheet" href="./assets/vendor/font/fontawesome-all.min.css">
+	<link rel="stylesheet" media="screen" href="./assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<!-- Start of the header -->
+		<header>
+			<div class="wrapper">
+				<a href="index.html" class="speedimage" title="Speed Is The Key To Success"><img src="./assets/images/speed.jpg" alt="flash"></a>
+			</div>
+		</header>
+		<!-- end of header -->
+		<!-- Start of main -->
+		<main>
+			<!-- game-content starts here -->
+			<section class="game-content">
+				<!-- wrapper starts here -->
+				<div class="wrappergame">
+					<!-- time score for time -->
+					<div class="time-score">
+						<span class="time-value">Time- <span class="time" id="time">0</span></span>
+						<span class="score-value">Score- <span class="score" id="score">0</span></span>
+					</div>
+					<!-- time score for time -->
+					<h1>wordbeater</h1>
+					<h2>Type the given word within <span class="green" id="seconds">5</span> seconds</h2>
+					<h3 id="current-word">example</h3>
+					<!-- form for input words -->
+						<div class="input-grp">
+							<input type="text" id="word-input" class="inputbox" name="word" placeholder="Start typing........">
+							<span class="displayword" id="message">Type Above</span>
+						</div>
+						<!-- form for input words -->
+					<div class="instructions">
+						<div class="instruct">
+							<h4>instructions</h4>
+							<p class="info">
+								Type each word in the given amount of seconds to score.
+							</p>
+							<p class="info">
+								To play again continue typing the text in the text box.
+							</p>
+						</div>
+						<div class="high-score">
+							<h5>High Score- <span id="high-score">592</span></h5>
+						</div>
+					</div>
+				</div>
+				<!-- wrapper ends here -->
+			</section>
+			<!-- game content ends here -->
+		</main>
+		<!-- End of main -->
+		<!-- start of footer -->
+		<footer>
+		</footer>
+		<!-- end of footer -->
+	</div>
+</body>
+<script src="./assets/js/script.js"></script>
+</html>
