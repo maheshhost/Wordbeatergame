@@ -59,6 +59,7 @@ function showWords(words) {
 }
 
 function startMatch () {
+	message.innerHTML = "start typing..";
 	if(matchWords()){
 		isPlaying = true;
 		time = currentLevel + 1;
