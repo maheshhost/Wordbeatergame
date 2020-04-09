@@ -6,7 +6,7 @@ function fetchData() {
 		alert("data not fetched");
 	}
 
-	xhr.open('get', 'https://api.myjson.com/bins/1h9kx2', false);
+	xhr.open('GET', 'arrayData', false);
 	xhr.send();
 	let data = JSON.parse(xhr.response); 
 	return data.list;
